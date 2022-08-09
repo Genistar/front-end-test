@@ -1,0 +1,17 @@
+body {
+  background-color: #000000;
+  color: #fff;
+  height: 7380px;
+  width: 1512px;
+  left: 1306px;
+  top: -506px;
+  border-radius: 0px;
+  font-family: 'Inter', sans-serif;
+}
+@media(max-width:750px){
+  body{
+    width: 375px;
+    height: 100%;
+  }
+}
+

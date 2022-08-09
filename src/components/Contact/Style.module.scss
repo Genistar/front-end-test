@@ -1,0 +1,169 @@
+.container{
+    .content{
+        position: absolute;
+        width: 314px;
+        height: 98px;
+        left: 599px;
+        top: 6697.55px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80.9309px;
+        line-height: 98px;
+    }
+    .email{
+        position: absolute;
+        width: 522px;
+        height: 61px;
+        left: 495px;
+        top: 6851.1px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .phone{
+        position: absolute;
+        width: 437px;
+        height: 61px;
+        left: 584.58px;
+        top: 6925.02px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .social{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 71px;
+
+            position: absolute;
+            width: 1090px;
+            height: 36px;
+            left: 211px;
+            top: 7040px;
+            span{
+                font-family: Inter;
+                font-size: 30px;
+                font-weight: 300;
+                line-height: 36px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+    }
+}
+@media(max-width:750px){
+    .container{
+        .content{
+            position: absolute;
+            width: 134px;
+            height: 42px;
+            left: 119px;
+            top: 5032.23px;
+
+            font-weight: 600;
+            font-size: 34.5808px;
+            line-height: 42px;
+        }
+        .email{
+            position: absolute;
+            width: 226px;
+            height: 26px;
+            left: 74.5px;
+            top: 5112.41px;
+            font-weight: 300;
+            font-size: 21.6264px;
+            line-height: 26px;
+        }
+        .phone{
+            position: absolute;
+            width: 146px;
+            height: 26px;
+            left: 113.25px;
+            top: 5144.38px;
+            font-weight: 300;
+            font-size: 21.6264px;
+            line-height: 26px;
+        }
+        .social{
+            color: #D6D6D6;
+            display: flex;
+            flex-direction: none;
+            align-items: center;
+            padding: 0px;
+            gap: none;
+            position: absolute;
+            width: none;
+            height: none;
+            left: 52.91px;
+            top: 5214px;
+            .tw{
+                position: absolute;
+                width: 56px;
+                height: 21px;
+                left: 0.57px;
+                top: 0.57px;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 21px;
+            }
+            .li{
+                position: absolute;
+                width: 67px;
+                height: 21px;
+                left: -5px;
+                top: 43.57px;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 21px;
+            }
+            .db{
+                position: absolute;
+                width: 68px;
+                height: 21px;
+                left: 216.09px;
+                top: 0.57px;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 21px;
+            }
+            .ytb{
+                position: absolute;
+                width: 69px;
+                height: 21px;
+                left: 104px;
+                top: 0.57px;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 21px;
+            }
+            .ins{
+                position: absolute;
+                width: 79px;
+                height: 21px;
+                left: 98px;
+                top: 43.57px;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 21px;
+            }
+            .fb{
+                position: absolute;
+                width: 79px;
+                height: 21px;
+                left: 211.59px;
+                top: 43.57px;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 21px;
+            }
+        }
+    }
+}

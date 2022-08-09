@@ -1,0 +1,50 @@
+.container{
+    .content{
+        position: absolute;
+        width: 341px;
+        height: 98px;
+        left: 595.5px;
+        top: 3958.13px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80.9309px;
+        line-height: 98px;
+        color: #FFFFFF;
+
+    }
+    .card{
+        position: absolute;
+        left: 90.13px;
+        top: 4217.2px;
+        height: 1000px;
+        width: 1350px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:750px){
+    .container{
+        .content{
+            position: absolute;
+            width: 146px;
+            height: 42px;
+            left: 114.5px;
+            top: 2056.05px;
+    
+            font-weight: 600;
+            font-size: 34.5808px;
+            line-height: 42px;
+    
+            color: #FFFFFF;
+        }
+        .card{
+            position: absolute;
+            width: 269.94px;
+            height: 268.78px;
+            left: 56.27px;
+            top: 2172.68px;
+        }
+    }
+    
+}

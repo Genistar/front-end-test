@@ -1,0 +1,69 @@
+.container{
+    .content{
+        position: absolute;
+        width: 379px;
+        height: 98px;
+        left: 566.5px;
+        top: 5476.6px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80.9309px;
+        line-height: 98px;
+    }
+    .text{
+        position: absolute;
+        width: 1099.76px;
+        height: 87px;
+        left: 206.12px;
+        top: 5626.71px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #BABABA;
+    }
+    .person{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        height: 591.59px;
+        width: 1550px;
+        left: 0px;
+        top: 5789.83px;    
+    }
+}
+@media(max-width:750px){
+    .container{
+        .content{
+            position: absolute;
+            left: 106.5px;
+            top: 3424.95px;
+            font-weight: 600;
+            font-size: 34.5808px;
+            line-height: 42px;
+        }
+        .text{
+            position: absolute;
+            width: 278.69px;
+            height: 96px;
+            left: 48.15px;
+            top: 3481.75px;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+
+            color: #BABABA;
+        }
+        .person{
+            position: absolute;
+            width: 378px;
+            height: 313.99px;
+            left: -3px;
+            top: 3628.61px;
+        }
+    }
+}
