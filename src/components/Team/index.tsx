@@ -12,7 +12,7 @@ export type person = {
     float: string
 }[]
 type Props = {
-    isIncrease: Boolean
+    isIncrease: Boolean;
 }
 
 const Team = (props: Props) => {

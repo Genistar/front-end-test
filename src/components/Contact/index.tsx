@@ -2,14 +2,15 @@ import React from 'react';
 import styles from './Style.module.scss'
 
 type Props = {
-    isIncrease: Boolean
+    isIncrease: Boolean;
+    contactRef: any
 }
 
 const Contact = (props: Props) => {
-    const { isIncrease } = props;
+    const { isIncrease, contactRef } = props;
     return (
         <div className={styles.container} style={{ position: 'absolute', top: isIncrease === false ? 0 : 1125 }}>
-            <div className={styles.content}>
+            <div className={styles.content} ref={contactRef}>
                 Contact
             </div>
             <div className={styles.email}>

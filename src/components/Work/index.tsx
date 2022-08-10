@@ -9,12 +9,13 @@ import image5 from '../../assets/image5.svg'
 import image6 from '../../assets/image6.svg'
 
 type Props = {
-    onGetDisplay: (data: any) => void
+    onGetDisplay: (data: any) => void;
+    myRef: any
 }
 
 const Work = (props: Props) => {
     const [display, setDisplay] = useState<Boolean>(false)
-    const { onGetDisplay } = props;
+    const { onGetDisplay, myRef } = props;
     const data = [
         {
             image: image1,
@@ -52,7 +53,7 @@ const Work = (props: Props) => {
     onGetDisplay(display);
     return (
         <div className={styles.container}>
-            <h1 className={styles.content}>Work</h1>
+            <h1 className={styles.content} ref={myRef}>Work</h1>
             <div className={styles.image1} style={{ height: display === false ? 1145 : 2290 }}>
                 {image}
             </div>
